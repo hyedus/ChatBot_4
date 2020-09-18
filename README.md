@@ -15,6 +15,14 @@
   
 ------------------
 ## 본인의 챗봇에 적용할 경우
-  - 텔레그램봇 키값
-  - chat_id
-  - 자신의 챗봇에 맞게 수정
+  - 텔레그램봇 토큰번호
+  - 텔레그램 chat_id (https://api.telegram.org/bot + 토큰번호/getUpdates) 
+  - 네이버 Developer ClientID, ClientSecret 
+  - BigKinds API 키값
+  => 발급 후 실행전, 본인의 값으로 변경
+  
+
+-------------------
+## 오류발생
+- Pyaudio 오류발생시: 아나콘다 Prompt에 conda install pyaudio 설치
+  
