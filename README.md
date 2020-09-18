@@ -18,11 +18,10 @@
   - 텔레그램봇 토큰번호
   - 텔레그램 chat_id (https://api.telegram.org/bot + 토큰번호/getUpdates) 
   - 네이버 Developer ClientID, ClientSecret 
-  - BigKinds API 키값
-  => 발급 후 실행전, 본인의 값으로 변경
+  - BigKinds API 키값  
   
 
 -------------------
 ## 오류발생
-- Pyaudio 오류발생시: 아나콘다 Prompt에 conda install pyaudio 설치
+- Pyaudio 오류발생: 아나콘다 Prompt -> conda install pyaudio 설치
   
